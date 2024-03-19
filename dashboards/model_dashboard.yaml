@@ -1,0 +1,62 @@
+# Visit https://docs.rilldata.com/reference/project-files to learn more about Rill project files.
+# This file was generated using AI.
+
+title: Metrics for Model Table
+model: model
+timeseries: date
+dimensions:
+  - label: Description
+    column: description
+    description: ""
+  - label: Spends by days
+    column: date
+    description: ""
+measures:
+  - name: amount
+    label: Amount
+    expression: SUM(amount)
+    description: Amount of transactions
+    format_preset: humanize
+    valid_percent_of_total: false
+  - name: balance
+    label: Balance
+    expression: MIN(balance)
+    description: Balance
+    format_preset: humanize
+    valid_percent_of_total: false
+  - name: total_balance
+    label: Total Balance
+    expression: MIN(balance)
+    description: Total balance across all transactions
+    format_preset: humanize
+    valid_percent_of_total: true
+  - name: total_transactions
+    label: Total Transactions
+    expression: COUNT(*)
+    description: Total number of transactions
+    format_preset: humanize
+    valid_percent_of_total: false
+  - name: average_amount_per_day
+    label: Average Amount per Day
+    expression: AVG(amount) / COUNT(DISTINCT(date))
+    description: Average amount per transaction
+    format_preset: humanize
+    valid_percent_of_total: false
+  - name: spending_by_days
+    label: Spending by Days
+    expression: SUM(amount) / COUNT(DISTINCT(date))
+    description: Average amount per transaction
+    format_preset: humanize
+    valid_percent_of_total: false
+available_time_zones:
+  - America/Los_Angeles
+  - America/Chicago
+  - America/New_York
+  - Europe/London
+  - Europe/Paris
+  - Asia/Jerusalem
+  - Europe/Moscow
+  - Asia/Kolkata
+  - Asia/Shanghai
+  - Asia/Tokyo
+  - Australia/Sydney
