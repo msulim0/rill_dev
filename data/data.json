@@ -1,5 +1,50 @@
 [
     {
+        "id": "riybC-42On8TsDjyZw",
+        "time": "2024-03-24 14:03:07",
+        "description": "Saturdays Coffee",
+        "mcc": 5814,
+        "originalMcc": 5814,
+        "amount": -95.0,
+        "operationAmount": -9500,
+        "currencyCode": 980,
+        "commissionRate": 0,
+        "cashbackAmount": 0,
+        "balance": 36.94,
+        "hold": false,
+        "receiptId": "EB54-E681-294T-BP30"
+    },
+    {
+        "id": "7mvRQr4c-_kFjkDRbw",
+        "time": "2024-03-24 11:25:48",
+        "description": "Black Honey | \u041a\u0440\u0438\u0432\u0430 \u041b\u0438\u043f\u0430",
+        "mcc": 5812,
+        "originalMcc": 5812,
+        "amount": -125.0,
+        "operationAmount": -12500,
+        "currencyCode": 980,
+        "commissionRate": 0,
+        "cashbackAmount": 0,
+        "balance": 131.94,
+        "hold": false,
+        "receiptId": "6KXA-1MX5-20XM-3KEC"
+    },
+    {
+        "id": "eGpaJCGJ1B6d02ptTg",
+        "time": "2024-03-24 04:24:56",
+        "description": "LVIVAVTODOR (AUTH)",
+        "mcc": 4111,
+        "originalMcc": 4111,
+        "amount": -30.0,
+        "operationAmount": -3000,
+        "currencyCode": 980,
+        "commissionRate": 0,
+        "cashbackAmount": 0,
+        "balance": 256.94,
+        "hold": false,
+        "receiptId": "C3P3-CB69-6HX3-B9XM"
+    },
+    {
         "id": "y-y_VJmAQYm4WyTHmw",
         "time": "2024-03-23 20:03:16",
         "description": "\u0421\u0456\u043c-23",
@@ -11,7 +56,7 @@
         "commissionRate": 0,
         "cashbackAmount": 0,
         "balance": 286.94,
-        "hold": true,
+        "hold": false,
         "receiptId": "MCA3-BHKP-M162-X82X"
     },
     {
@@ -26,7 +71,7 @@
         "commissionRate": 0,
         "cashbackAmount": 0,
         "balance": 316.94,
-        "hold": true,
+        "hold": false,
         "receiptId": "667T-THAE-7334-KBEK"
     },
     {
@@ -41,7 +86,7 @@
         "commissionRate": 0,
         "cashbackAmount": 0,
         "balance": 527.91,
-        "hold": true,
+        "hold": false,
         "receiptId": "M272-BMMB-BAM6-71E4"
     },
     {
@@ -56,7 +101,7 @@
         "commissionRate": 0,
         "cashbackAmount": 0,
         "balance": 622.91,
-        "hold": true,
+        "hold": false,
         "receiptId": "P9PB-B8CC-4MP6-A6X3"
     },
     {
@@ -71,7 +116,7 @@
         "commissionRate": 0,
         "cashbackAmount": 0,
         "balance": 717.91,
-        "hold": true,
+        "hold": false,
         "receiptId": "07T0-024A-CKX7-9H5X"
     },
     {
